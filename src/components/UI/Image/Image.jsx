@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './Image.css';
+import styles from './Image.module.css';
 
 const Image = ({src, alt, ...props}) => {
     return (
-        <img src={src} alt={alt} {...props}/>
+        <img className={styles.image} src={src} alt={alt} {...props}/>
     );
 };
 

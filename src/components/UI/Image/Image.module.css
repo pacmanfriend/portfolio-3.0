@@ -1,0 +1,6 @@
+.image{
+    height: 250px;
+    width: 150px;
+    border: 2px solid var(--color-accent);
+
+}
