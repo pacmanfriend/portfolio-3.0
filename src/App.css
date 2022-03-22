@@ -1,5 +1,6 @@
 .app {
     width: 1200px;
-    background-color: var(--color-main);
+    height: auto;
+    background-color: var(--color-secondary-dark);
     margin: 0 auto;
 }
