@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.css';
 
-import Home from './pages/Home';
+import {Home} from '@pages';
 
 const App = () => {
     return (
-        <div className='app'>
+        <div className={styles.app}>
             <Home/>
         </div>
     );
