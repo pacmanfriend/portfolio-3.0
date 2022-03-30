@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--color-text-white)
+    color: var(--color-text-white);
 }
 
 :root {
     --color-text-white: #fff;
     --color-text-black: #000;
-    --color-main: #041C32;
-    --color-secondary-dark: #04293A;
-    --color-secondary-bright: #064663;
-    --color-accent: #ECB365;
+    --color-main: #272121;
+    --color-secondary-dark: #443737;
+    --color-secondary-bright: #950101;
+    --color-accent: #FF0000;
 
     --transition-main: 0.4s;
 
@@ -20,8 +20,8 @@
 
 #root {
     display: flex;
-    flex-grow: 1;
     justify-content: center;
+    background-color: var(--color-main);
 }
 
 

@@ -1,13 +1,29 @@
 .home {
-    margin: 0 auto;
+
+}
+
+.home h1{
+    text-align: center;
 }
 
 .homeContainer {
     display: flex;
-    margin: 0 20px;
 }
 
-.photoContainer{
-    
+.homeContainer > div {
+    margin: 20px;
+}
+
+.photoContainer {
+
+}
+
+.infoContainer {
+    background-color: var(--color-main);
+    border: 1px none;
+    border-radius: 5px;
+    flex-grow: 2;
+    padding: 15px;
+
 }
 
