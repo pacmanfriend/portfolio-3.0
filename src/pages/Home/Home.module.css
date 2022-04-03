@@ -1,29 +1,35 @@
 .home {
-
 }
 
-.home h1{
-    text-align: center;
-}
-
-.homeContainer {
-    display: flex;
-}
-
-.homeContainer > div {
+.logoContainer {
     margin: 20px;
 }
 
-.photoContainer {
-
+.logo {
+    width: 100%;
 }
 
-.infoContainer {
-    background-color: var(--color-main);
-    border: 1px none;
-    border-radius: 5px;
-    flex-grow: 2;
-    padding: 15px;
-
+.info {
+    text-align: center;
 }
 
+.infoItem {
+    display: block;
+}
+
+.title {
+    font-size: xxx-large;
+    margin: 10px;
+    color: var(--color-accent)
+}
+
+.text .copyright {
+    font-family: "Cascadia Mono";
+    margin: 10px;
+}
+
+.copyright {
+    font-size: small;
+    font-weight: lighter;
+    margin: 10px;
+}
