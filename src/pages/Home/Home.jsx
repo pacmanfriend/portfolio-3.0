@@ -4,8 +4,6 @@ import styles from './Home.module.css';
 import logo_2 from '@images/logo/logo_2.jpg';
 import classNames from 'classnames';
 
-let cx = classNames.bind(styles);
-
 const Home = () => {
     let infoTitleClass = classNames(styles.infoItem, styles.title);
     let infoTextClass = classNames(styles.infoItem, styles.text);
