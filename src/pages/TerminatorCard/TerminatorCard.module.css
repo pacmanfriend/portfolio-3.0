@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+}
+
+
+.photoContainer {
+    flex-grow: 1;
+}
+
+.infoContainer {
+    flex-grow: 2;
+}
+
+.infoItem {
+
+}
+
+.infoItemLabel {
+
+}
+
+.infoItemText {
+
+}
+
+.description{
+
+}
