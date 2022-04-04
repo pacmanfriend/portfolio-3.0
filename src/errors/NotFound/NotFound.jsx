@@ -17,7 +17,7 @@ const NotFound = () => {
         <div className={styles.container}>
             <div>
                 <p className={styles.text404}>404</p>
-                <p className={styles.text}>Page not Found</p>
+                <p className={styles.text}>Page not found</p>
             </div>
             <div className={styles.buttonContainer}>
                 <CommonButton text={'На главную'} onClick={toHomePage}/>
