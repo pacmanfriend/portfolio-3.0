@@ -1,0 +1,13 @@
+.button {
+    min-height: 50px;
+    min-width: 100px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: var(--color-main);
+}
+
+.button:hover{
+    background-color: var(--color-secondary-bright);
+    transition: var(--transition-main);
+}
