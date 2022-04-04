@@ -1,0 +1,18 @@
+.container {
+    text-align: center;
+
+}
+
+.text404 {
+    color: var(--color-accent);
+    font-size: 200px;
+}
+
+.text{
+    font-size: xx-large;
+    font-style: unset;
+}
+
+.buttonContainer{
+   margin:200px;
+}
