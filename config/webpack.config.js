@@ -315,6 +315,7 @@ module.exports = function (webpackEnv) {
                 '@UI': path.resolve(__dirname, '../src/components/UI'),
                 '@layout': path.resolve(__dirname, '../src/layout'),
                 '@pages': path.resolve(__dirname, '../src/pages'),
+                '@errors': path.resolve(__dirname, '../src/errors'),
 
                 'react-native': 'react-native-web',
 
