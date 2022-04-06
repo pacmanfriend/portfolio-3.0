@@ -1,0 +1,30 @@
+.item {
+    width: 100%;
+    height: 200px;
+    border: var(--color-secondary-bright) solid 2px;
+    display: flex;
+}
+
+
+.info {
+    flex-grow: 3;
+}
+
+.buttonContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 170px;
+    width: 170px;
+}
+
+.counter {
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px;
+}
