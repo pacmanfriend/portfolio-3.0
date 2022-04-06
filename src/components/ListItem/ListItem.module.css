@@ -1,0 +1,16 @@
+.card {
+    margin: 10px;
+}
+
+.nameContainer {
+    text-align: center;
+    color: var(--color-accent);
+    font-size: x-large;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
